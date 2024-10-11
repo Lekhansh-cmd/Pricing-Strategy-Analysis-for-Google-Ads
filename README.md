@@ -9,7 +9,7 @@ This project is based on the following test task and questions provided by the c
 - Create some visualizations using the provided data. Ideally, one or two dashboards to understand what's going on.
 - How should we set pricing rules for this partner – any split you prefer and why?
 - What should be the pricing setup per each split and why?
-S- hould we use a target CPM, a hard floor, or both for pricing?
+- Should we use a target CPM, a hard floor, or both for pricing?
 
 ## Data Provided
 
