@@ -70,7 +70,7 @@ Recommended a combination of both target CPMs and hard floors:
 ## Tools Used
 
 - Data Analysis: Python (Pandas, Matplotlib)
-- Visualization: Dashboards created using Excel/Power BI for performance overview visualizations.
+- Visualization: Dashboards created using Tableau for performance overview visualizations.
 
 # Conclusion
 
