@@ -18,42 +18,48 @@ This project is based on the following test task and questions provided by the c
 
 ## Steps Taken
 
-1. Data Exploration and Visualization (Question 0)
-Created two key dashboards for better understanding of the ad performance:
+## 1. Data Exploration and Visualization
 
-- Time-based Dashboard: Displays impressions and revenue trends across various hours of the day, identifying peak and off-peak times.
-- Country-based Dashboard: Highlights average eCPM by country to identify premium, mid-tier, and low-tier markets.
-These visualizations help identify optimal pricing opportunities and guide the strategic decision-making process.
+- Created two key dashboards for better understanding of the ad performance:
+  - Time-based Dashboard: Displays impressions and revenue trends across various hours of the day, identifying peak and off-peak times.
+  - Country-based Dashboard: Highlights average eCPM by country to identify premium, mid-tier, and low-tier markets.
 
-2. Pricing Rule Recommendations (Question 1)
+- These visualizations help identify optimal pricing opportunities and guide the strategic decision-making process.
+
+## 2. Pricing Rule Recommendations
+
 Developed a dual-split pricing strategy based on time of day and country to optimize revenue.
 
-## Time-based Split:
+- Time-based Split:
 
-- Peak hours (14:00–16:00): Suggested higher pricing due to high impressions and revenue during these hours.
-- Off-peak hours (6:00–8:00): Lower pricing recommended to stimulate demand and fill ad inventory during low-traffic periods.
+  - Peak hours (14:00–16:00): Suggested higher pricing due to high impressions and revenue during these hours.
+  - Off-peak hours (6:00–8:00): Lower pricing recommended to stimulate demand and fill ad inventory during low-traffic periods.
 
-## Country-based Split:
+- Country-based Split:
 
-- Premium Markets (Switzerland, Singapore, UAE): Higher pricing recommended due to their elevated eCPM values.
-- Mid-tier Markets (US, Belgium, Denmark): Maintained average pricing as these regions show steady demand and eCPM values.
-- Low-tier Markets (Ireland, France, Australia): Lower prices suggested to attract more advertisers and monetize impressions in less competitive markets.
+  - Premium Markets (Switzerland, Singapore, UAE): Higher pricing recommended due to their elevated eCPM values.
+  - Mid-tier Markets (US, Belgium, Denmark): Maintained average pricing as these regions show steady demand and eCPM values.
+  - Low-tier Markets (Ireland, France, Australia): Lower prices suggested to attract more advertisers and monetize impressions in less competitive markets.
 
-## 3. Pricing Setup per Split (Question 2)
+## 3. Pricing Setup per Split 
 
 - Time-based Pricing:
-Peak Hours (14:00–16:00): Increase CPM by 20-30% to take advantage of the highest demand. For example, countries like Switzerland could see CPM increases above £0.65.
-Off-Peak Hours (6:00–8:00): Reduce CPM by 15-20% to attract more ads during low-demand periods. For example, France’s CPM could drop from £0.16 to £0.13–£0.14.
+
+  - Peak Hours (14:00–16:00): Increase CPM by 20-30% to take advantage of the highest demand. For example, countries like Switzerland could see CPM increases above £0.65.
+  - Off-Peak Hours (6:00–8:00): Reduce CPM by 15-20% to attract more ads during low-demand periods. For example, France’s CPM could drop from £0.16 to £0.13–£0.14.
 
 - Country-based Pricing:
-Premium Markets (e.g., Switzerland): Suggested CPMs of £0.65 or higher.
-Mid-tier Markets (e.g., US): Maintain CPM at around £0.21.
-Low-tier Markets (e.g., Ireland, France, Australia): Keep CPMs around £0.16, with potential reductions during off-peak times.
 
-## 4. Use of Target CPM and Hard Floors (Question 3)
+  - Premium Markets (e.g., Switzerland): Suggested CPMs of £0.65 or higher.
+  - Mid-tier Markets (e.g., US): Maintain CPM at around £0.21.
+  - Low-tier Markets (e.g., Ireland, France, Australia): Keep CPMs around £0.16, with potential reductions during off-peak times.
+
+## 4. Use of Target CPM and Hard Floors
+
 Recommended a combination of both target CPMs and hard floors:
-Premium Markets: Use a hard floor (e.g., £0.65 for Switzerland) to ensure valuable impressions are not undersold.
-Mid-tier and Low-tier Markets: Use a target CPM approach to allow for flexible pricing based on market demand and conditions.
+
+- Premium Markets: Use a hard floor (e.g., £0.65 for Switzerland) to ensure valuable impressions are not undersold.
+- Mid-tier and Low-tier Markets: Use a target CPM approach to allow for flexible pricing based on market demand and conditions.
 
 ## Insights and Recommendations (Additional Insights)
 
